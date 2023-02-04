@@ -19,13 +19,12 @@
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pictureButton" />
 
     <EditText
         android:id="@+id/lastNameInput"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="30dp"
@@ -40,7 +39,7 @@
 
     <EditText
         android:id="@+id/middleNameInput"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="30dp"
@@ -70,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:text="App 1"
+            android:text="Create Profile"
             android:textSize="30dp"
             tools:layout_editor_absoluteX="153dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -87,7 +86,7 @@
 
     <EditText
         android:id="@+id/firstNameInput"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="30dp"
